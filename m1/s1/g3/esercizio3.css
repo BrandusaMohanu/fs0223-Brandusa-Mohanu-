@@ -1,0 +1,30 @@
+.contenitore {width: 0 auto; margin-left:auto
+    ;
+}
+#logo { margin-left: 800px; width: 240px;margin-bottom: 10px; }
+#FRASE1 { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+
+.sez1 { margin-top: 10px; color: #388BDB; margin-left: 780px;}
+.sez2{ margin-left: 700px; font-size: larger;
+}
+#p1 { margin-top: 0px; margin-left: 70px;}
+#sez1 {color: #388BDB; margin-left: 780px;margin-top: 5px;}
+#sez2{ margin-left: 700px; font-size: larger;
+}
+#p1 { margin-top: 0px; margin-left: 70px;}
+.contenuto{ margin-left: 630px;width: 650px;}
+#immagine{border-radius: 10px 10px 10px 10px;box-shadow: 10px 10px 5px #dedede;margin-bottom: 10px; }
+#image{margin-left: 300px;color: gray;}
+#p{font-family:'Times New Roman', Times, serif}
+#FEATURED{color: orange;font-size: large;}
+#fresh{color: #388BDB;text-decoration:underline;}
+.titoli{font-size: larger;font-family: Georgia, 'Times New Roman', Times, serif;}
+.h6{font-size: large;font-weight: bold;margin-top: 30px;}
+ul li {margin-top: 10px; }
+ ul li:first-child {margin-top: 10px; }
+#ul{margin-top: 20px;}
+#mf{font-size: large; font-weight: bold;}
+#fine{color:#388BDB;text-decoration:underline;}
+#paragrafo{margin-left: 45px;}
+#sfondo{background-color:#F5E89D; padding-top:10px;padding-bottom: 15px;}
