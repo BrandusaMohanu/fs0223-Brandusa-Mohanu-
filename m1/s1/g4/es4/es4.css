@@ -8,8 +8,7 @@ body{ padding: 15px; background-image:url(sfondo.png);
 .contenitore{font-family: 'Poppins', sans-serif;
     text-align:center;
     }
-.rettangolo{ width: 450px;
-height: 250px;
+.rettangolo{ 
 background: rgb(20,170,190);
 background: linear-gradient(0deg, rgba(20,170,190,1) 0%, rgba(175,222,238,1) 100%);
 margin-left: 10px;
@@ -27,14 +26,15 @@ box-shadow: 2px 2px 5px #474747;
     display: block;
 
 }
-#rettangolo2{width: 450px;
-    height: 1000px;
+#rettangolo2{
     background-color:whitesmoke;
     margin-left: 10px;
     margin-top: 10px;
     margin-right: 10px;
     box-shadow: 2px 2px 5px #474747;
     font-family: 'Poppins', sans-serif;
+    margin-bottom: 120px;
+    padding-bottom:40px ;
  
 }
 h1 {
@@ -94,12 +94,101 @@ th {
     background-color: #621fe9;
     border: 1px solid #fff;
     color: rgb(255, 255, 255);
-    width: 200px;
-    height: 70px;
+   margin-left: 20px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 table{
     margin-left: 20px;
     margin-right: 20px;
+   
+}
+.gray{background-color: #d6d5d5;
+    border: 1px solid #504d4d;
+
+}
+tr{ text-align: center;
+ 
+}
+#video{  margin-left: 50px;
+    margin-right: 50px;
+   
+    border-radius: 25px 25px 25px 25px;
+
+}
+.rettangolo3{ background: rgb(198, 199, 199);
+    margin-left: 10px;
+    box-shadow: 2px 2px 5px #474747;
+ margin-right: 10px;
+ padding-left: 35px;
+ padding-right: 45px;
+}
+h2{ font-size: large;
+    font-weight: bold;
+    font-size: 1.6em;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 70px;
+    padding-bottom: 15px;
+}
+#email{ padding-top: 20px;
+
+}
+#insemail{ height: 20px;
+    border-bottom-style: dashed;
+    border-color: #621fe9;
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+
+}
+ button{ background-color: #621fe9;
+    color: white;
+    border: none;
+    height: 20px;
+
+ }
+ 
+ .rettangolo4{ background: rgb(198, 199, 199);
+    margin-left: 10px;
+    box-shadow: 2px 2px 5px #474747; 
+ padding-left: 35px;
+ padding-right: 35px;
+ padding-bottom: 25px;
+ margin-top: 10px;
+ margin-right: 10px;
+
+ }
+ .a{font-size: large;
+    font-weight: bold;
+    display: block;
+
+ }
+
+ .date{ padding-bottom: 10px;
+  
+    margin-left: 5px;
+    font-size: small;
+   
+    
+   
+}
+#icona2{margin-left: 150px;
+}
+.icohome{ margin-top: 15px;
+
+}
+.rettangolo5{
+    background: rgb(20,170,190);
+background: linear-gradient(0deg, rgba(20,170,190,1) 0%, rgba(175,222,238,1) 100%);
+margin-left: 10px;
+font-size: large;
+color: white;
+box-shadow: 2px 2px 5px #474747;
+}
+#blog{ text-align: center;
+
+}
+#last{
+    color: purple;
 }

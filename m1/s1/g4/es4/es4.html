@@ -76,7 +76,7 @@
                     <td>20&percnt;</td>
                     <td>17&percnt;</td>
                 </tr>
-                <tr>
+                <tr class="gray">
                     <td>2002</td>
                     <td>35&percnt;</td>
                     <td>22&percnt;</td>
@@ -86,7 +86,7 @@
                     <td>45&percnt;</td>
                     <td>42&percnt;</td>
                 </tr>
-                <tr>
+                <tr class="gray">
                     <td>2008</td>
                     <td>80&percnt;</td>
                     <td>51&percnt;</td>
@@ -98,19 +98,19 @@
                 </tr>
             </tbody>
         </table>
+        <hr>
+        <p class="p1">Un test di validazione potrà essere fatto tramite il <a href="https://jigsaw.w3.org/css-validator/" target="blank" title="Validatore CSS online del W3C">tool online</a> dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:</p>
 
-        <p>Un test di validazione potrà essere fatto tramite il <a href="https://jigsaw.w3.org/css-validator/" target="blank" title="Validatore CSS online del W3C">tool online</a> dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:</p>
+        <iframe id="video" width="300" height="300" src="https://www.youtube.com/embed/dvOvHXruEDM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-        <iframe width="300" height="300" src="https://www.youtube.com/embed/dvOvHXruEDM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        <section>
+        <section class="rettangolo3">
             <h2>Novità</h2>
             <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
             
             <form method="POST" action="elabora_form.php">
-                <fieldset>
-                    <input type="email" name="user_email" id="user_email" placeholder="inserisci l'email" required> 
-                    <button type="submit">Iscriviti!</button>
+                <fieldset id="email">
+                    <input id="insemail" type="email" name="user_email" id="user_email" placeholder="inserisci l'email" required> 
+                    <button  type="submit">Iscriviti!</button>
                 </fieldset>
             </form>
         </section>
@@ -119,33 +119,44 @@
 
     <aside>
         <h2>Articoli correlati</h2>
-        <div>
-            <a href="post2.html" title="Passaggi guidati per validare correttamente tutto il codice sviluppato">Validare il codice HTML</a>
-            <p>Categoria: develop</p>
-            <p>Data: 18-9-2020</p>
+    <div class="rettangolo4">
+            <a class="a" href="post2.html" title="Passaggi guidati per validare correttamente tutto il codice sviluppato">Validare il codice HTML</a>
+            <i class="fas fa-tag"></i> 
+            <span>Categoria: develop</span>
+            <div class="icohome">
+                <i class="fas fa-home" id="icona2"></i>
+            <span class="date">Data: 18-9-2020</span>
+            </div>
         </div>
 
-        <div>
-            <a href="post3.html" title="Passaggi guidati per controllare e correggere tutto il codice sviluppato">Correggere la sintassi</a>
-            <p>Categoria: develop</p>
-            <p>Data: 16-9-2020</p>
+        <div class="rettangolo4">
+            <a class="a" href="post3.html" title="Passaggi guidati per controllare e correggere tutto il codice sviluppato">Correggere la sintassi</a>
+            <i class="fas fa-tag"></i>
+            <span>Categoria: develop</span>
+            <div class="icohome"><i class="fas fa-home" id="icona2"></i>
+                <span class="date">Data: 16-9-2020</span></div> 
         </div>
 
-        <div>
-            <a href="post4.html" title="Consigli ed approcci per ridurre il peso della pagina">Meno Kb nella pagina</a>
-            <p>Categoria: ottimizzazione</p>
-            <p>Data: 30-9-2020</p>
+        <div class="rettangolo4">
+            <a class="a" href="post4.html" title="Consigli ed approcci per ridurre il peso della pagina">Meno Kb nella pagina</a>
+            <i class="fas fa-tag"></i>
+            <span>Categoria: ottimizzazione</span>
+            <div class="icohome">
+            <i class="fas fa-home" id="icona2"></i>
+            <span class="date">Data: 30-9-2020</span>
+            </div>
         </div>
     </aside>
   </main>
   </div>
 
   <hr>
-
-  <footer>
-    <p>Blog Epicode &copy;2021</p>
-    <address>Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233. <a href="mailto:info@epicode.school" title="contattami per informazioni/lavoro/privacy">info@epicode.school</a></address>
-  </footer>
+   <div class="rettangolo5">
+    <footer id="blog">
+    <p >Blog Epicode &copy;2021</p>
+    <address>Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233. <a id="last" href="mailto:info@epicode.school" title="contattami per informazioni/lavoro/privacy">info@epicode.school</a></address>
+    </footer>
+   </div>
 </div>
 </body>
 </html>
