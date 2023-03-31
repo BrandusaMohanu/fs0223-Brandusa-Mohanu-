@@ -3,7 +3,7 @@ font-size:1.2rem;
 box-sizing: border-box;
 margin: 0%;
 text-align: center;
-line-height: 150%;
+line-height: 200%;
 }
 .contenitore{background-color: black;
     padding-top:25px;
@@ -14,13 +14,13 @@ line-height: 150%;
 #banner{background-image: url(banner.jpg);
     background-size: cover;
     padding-top: 10%;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 
 }
 
 h1{color: #25a2c3;
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     font-size: xx-large;
     
 }
@@ -33,22 +33,25 @@ h1{color: #25a2c3;
     padding-right: 30px;
     border: none;
     border-radius: 5px;
-    margin-top: 5%;
+    
+    
 }
-p{ margin-bottom: 5%;
-    margin-left: 40px;
-    margin-right: 40px;
-}
+
 h3{ font-family: 'Montserrat', sans-serif;
     color: #25a2c3;
-    margin-top: 7%;
-    margin-bottom: 3%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    
+    
     
 }
 #notebook{-moz-border-radius: 180px;
     -webkit-border-radius: 180px;
     border-radius: 100%;
     width: 40%;
+    margin-right: 10%;
+    display: inline;
+    float:left;margin: 10px”
     
 
 }
@@ -61,16 +64,17 @@ h2{font-family: 'Montserrat', sans-serif;
 }
 #p2{font-style: italic;
     color: white;
+    font-size: larger;
 
 }
 #redrectangle{ background-color:#e22d0e ;
     padding-top: 30px;
-    padding-bottom: 25px;  
+    margin-top: 20%;
+    padding-bottom: 85px;  
 
 }
-#p1{
-    padding-bottom: 50px;
-}
+
+
 #testimonianze{ padding-bottom: 5px;
     color: white;
     font-size: larger;
@@ -88,6 +92,7 @@ border: 1px solid #dee1e3;
     box-sizing: border-box;
     display: inline-block;
     border-bottom: 0cm;
+ 
     
 
 }
@@ -161,4 +166,16 @@ hr{
     color: white;
    
     display: inline;
+}
+#logo{ text-align: left;
+    padding-right: 90%;
+    padding-left: 5%;
+
+}
+
+
+.bo{border: 0% solid ;
+text-align: left;}
+p{ padding-bottom: 1%;
+    margin-bottom: 2%;
 }
