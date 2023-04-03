@@ -4,6 +4,8 @@ box-sizing: border-box;
 margin: 0%;
 text-align: center;
 line-height: 200%;
+margin-left: 0%;
+margin-right: 0%;
 }
 .contenitore{background-color: black;
     padding-top:25px;
@@ -39,8 +41,10 @@ h1{color: #25a2c3;
 
 h3{ font-family: 'Montserrat', sans-serif;
     color: #25a2c3;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-bottom: 0%;
+    padding-top: 1%;
+    width: 10%;
     
     
     
@@ -49,7 +53,9 @@ h3{ font-family: 'Montserrat', sans-serif;
     -webkit-border-radius: 180px;
     border-radius: 100%;
     width: 40%;
-    margin-right: 10%;
+    padding-top: 7%;
+    margin-right: 5%;
+    margin-left: 7%;
     display: inline;
     float:left;margin: 10px”
     
@@ -65,6 +71,8 @@ h2{font-family: 'Montserrat', sans-serif;
 #p2{font-style: italic;
     color: white;
     font-size: larger;
+    
+   
 
 }
 #redrectangle{ background-color:#e22d0e ;
@@ -84,28 +92,7 @@ h2{font-family: 'Montserrat', sans-serif;
     color: white;
 
 }
-.photo{ margin-top: 15%;
-width: 85%;
-border: 1px solid #dee1e3;
-    -moz-box-sizing: border-box;
-   -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    display: inline-block;
-    border-bottom: 0cm;
- 
-    
 
-}
-
-.photo2 { margin-top: 15%;
-    width: 85%;
-    border: 1px solid #dee1e3;
-        -moz-box-sizing: border-box;
-       -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        display: inline-block;
-        border-bottom: 0cm;
-}
 #rectangle2{ margin-top: 15%;
     background-color:#25a2c3;
     padding-top: 7%;
@@ -176,6 +163,37 @@ hr{
 
 .bo{border: 0% solid ;
 text-align: left;}
-p{ padding-bottom: 1%;
-    margin-bottom: 2%;
+
+
+.sinistra{padding-top: 13%;
+
+}
+.contenitore2{
+    width: 100%;
+padding-top: 7%;
+}
+#prima{display:inline-block;
+position: relative;
+width: 40%;
+height: 20%;
+
+}
+#secondo{width: 40%;
+    height: 20%;
+    display: inline;
+    margin-left: 0;
+}
+#terzo{width: 40%;
+    height: 20%;
+    display: inline;
+    padding-top: 5%;
+}
+.photo{ padding-left: 3%;
+    margin-left: 2%;
+    width: 40%;
+    padding-right: 0;
+    margin-right: 0%;
+}
+.photo2{ margin-left: 0;
+    width: 25%;
 }
