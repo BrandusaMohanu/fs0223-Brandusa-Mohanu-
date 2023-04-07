@@ -8,7 +8,7 @@ body{font-family: Arial, Helvetica, sans-serif;
 
     }
     #logo{
-        margin-left: 25px;;
+        margin-left: 25px;
     }
     #riga{ background-color: #364758;
         padding-top: 10px;
@@ -67,13 +67,13 @@ body{font-family: Arial, Helvetica, sans-serif;
   
 #box3{ background-color: rgb(255, 255, 255);
     width: 90%;
-    height:500px;
+    height:350px;
     margin:auto;
     padding-top: 20px;
     margin-top: 40px;
 
 }
-#ee{ margin-top: 40px;
+.ee{ margin-top: 40px;
     margin-left: 30px;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
@@ -85,24 +85,85 @@ body{font-family: Arial, Helvetica, sans-serif;
     margin-top: 30px;
 
 }
-#img1{
-    background-image: url(img_1.jpg);
-    width: 230px;
-    height:300px;
-    background-size: cover;
-    border-radius: 10%;
+.box5{background-image: url(img_9.png);
+background-size: cover;
+width: 90%;
+ height:350px;
+ margin:auto;
+padding-top: 20px;
+margin-top: 40px;}
     
-}
+    .ff{font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-top: 7px;
+        
+    }
+    .blue{
+        font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 60, 255);
+    margin-left: 15px;
+    margin-top: 30px;
+    font-size: medium;
 
+    }
+    #box5{background-image: url(img_10.png);
+        background-size: cover;
+        width: 90%;
+         height:350px;
+         margin:auto;
+        padding-top: 20px;
+        margin-top: 40px;}
 
+        #riga2{
+                background-color: #364758;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                margin-top: 30px;
+                text-align: center;
+        }
+        #back{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 15px;
+           margin-top: 30px;
+            
+        }
+        #logo2{ margin-left: 45%;
 
-#img2{
-    background-image: url(img_2.jpg);
-    width: 230px;
-    height:300px;
-    background-size: cover;
-    border-radius: 10%;
-    
-    
-}
-
+        }
+        .contenitore2{ padding-top:35px;
+            padding-bottom: 60px;
+            background-color: #222f3f;
+        
+            }
+            .flex {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+            }
+            
+            .images {
+                background-size: cover;
+                background-position: center;
+                height: 265px;
+                width: 293px;
+                border-radius: 15px;
+                box-shadow: 1px 1px 10px gray;
+                margin-top: 2rem;
+                margin-left: 10px;
+                margin-right: 10px;
+                
+            }
+            #img1{ background-image: url(img_1.jpg);
+              
+            }
+            #img2{ background-image: url(img_2.jpg);
+              
+            }
+            #img3{ background-image: url(img_3.jpg);
+              
+            }
+            #img4{ background-image: url(img_4.jpg);
+              
+            }
