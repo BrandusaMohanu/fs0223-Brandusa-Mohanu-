@@ -85,8 +85,15 @@ console.log(crazyDiff(25,19));
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-function epify(stringa)
-
+function epify (stringa){
+    if (stringa.startsWith("EPICODE")){
+      return stringa;
+    }else {
+      return "EPICODE" + stringa;
+    }
+  }
+  
+  console.log(epify("EPICODE"));
 
 
 
