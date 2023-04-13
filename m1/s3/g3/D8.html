@@ -134,12 +134,12 @@
 
     const addParagraph = function () {
 
-      var paragrafo = document.createElement("p");
-      var testo = document.createTextNode("secondo paragrafo");
-      paragrafo.appendChild(testo);
-      document.getElementsByTagName("div").appendChild(paragrafo);
-    }
-    addParagraph();
+      let paragrafo = document.createElement("p");
+      paragrafo.textContent = "testo secondo paragrafo aggiunto";
+        document.querySelector("p").appendChild(paragrafo);
+       }
+
+       addParagraph();
     /* ESERCIZIO 7
        Scrivi una funzione che faccia scomparire la prima lista non ordinata
     */
@@ -147,7 +147,7 @@
     const hideFirstUl = function () {
       let destroyList = document.querySelector('#firstList')
 
-destroyList.style.display = 'none'
+      destroyList.style.display = 'none'
 
 }
 
