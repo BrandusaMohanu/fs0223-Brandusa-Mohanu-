@@ -175,10 +175,18 @@ hideFirstUl();
       */
 
     const makeItClickable = function () {
+    let h1 = document.querySelector('h1');
 
+    let testoarr = h1.innerText.split('');
+
+    testoarr.pop();
+    
+    let testonew = testoarr.join();
+    h1.textContent = testonew;
 
     }
-
+    document.querySelector('h1')
+    addEventListener('click', makeItClickable);
     /* ESERCIZIO 10
        Crea una funzione che, al click sul footer, riveli l'URL del link interno come contenuto di un alert()
       */
