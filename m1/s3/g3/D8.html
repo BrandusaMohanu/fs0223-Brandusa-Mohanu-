@@ -160,9 +160,15 @@ hideFirstUl();
       */
 
     const paintItGreen = function () {
-
-
+      let disordinata = document.querySelectorAll('ul');
+      for(let nuova of disordinata){
+        nuova.style.backgroundColor = 'green';
+      }
     }
+      paintItGreen()
+
+
+    
 
     /* ESERCIZIO 9
        Scrivi una funzione che rimuova l'ultima lettera dall'h1 ogni volta che l'utente lo clicca
@@ -214,10 +220,19 @@ hideFirstUl();
       Crea una funzione che cambi il colore del h2 con id "changeMyColor" con un colore random ad ogni click ricevuto
     */
 
-    const changeColorWithRandom = function () {
-
-
+    const changeColorWithRandom = function generacolore() {
+      let r = Math.floor(Math.random()*256)
+      let g = Math.floor(Math.random()*256)
+      let b = Math.floor(Math.random()*256)
+      let colore = 'rgb(${r},${g},${b})';
+      return colore;
     }
+    let onclick = document.querySelector('#changeMyColor');
+    onclick.addEventListener('click', function (){
+      document.querySelector('h2')
+      .style.color= generacolore();
+    }
+    )
 
     /* EXTRA ESERCIZIO 16
       Crea una funzione che elimini le vocali da ogni elemento testuale della pagina (puoi aiutarti con i nuovi metodi degli array di ES6)
